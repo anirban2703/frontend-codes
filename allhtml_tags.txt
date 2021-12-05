@@ -1,0 +1,132 @@
+All the html tags are mentioned below with their short descriptions
+
+
+<!DOCTYPE html> => declaration and defines that this document is an html5 document 
+<html> =>this element is the root element of an html page
+<head> => this element is contains meta information about the html page 
+<title> => this specifies a title for the html page(which is shown in the browser title bar/in the pages tab)
+<body> => this defines the documents body,and is a container for all the visible contents
+
+// Heading Tags
+<h1>This is a H1 tag</h1>
+<h2>This is a h2 tag</h2>  & h3,h4,h5,h6 tags are there
+
+// Paragraph tag
+<p> This is a Paragraph tag</p>
+
+//Formatting Tags 
+<b> => Bold tag
+<i> => italic tag
+<strong> => important tag (bold tag and strong tags are preety much same)
+<em> => Emphasized tag (this tag is same as i tag)
+<mark> => marked tag(this tag will highlight the background color)
+<small> => Smaller text(small the font size from default size)
+<del> => Deleted text(this will highlight the text as this is deleted by usign a horizontal line in the text)
+<ins> => inserted text (give a underline to the text)
+<sub> => subscript text
+<sup> => superscript text 
+
+//Html Connent Tag
+
+<!-- the commented text -->
+<!-- 
+    for 
+    multiple lines -->
+
+//Anchor Tag
+<a href="url" target="  ">link text</a>
+for targets ==>
+1. _blank= open document in new window or tab,
+2. _parent = open document in the parent frame,
+3. _top = open document in the full body window,
+4. _self = default, open the document in the same window tab as it was clicked
+
+//Image tag
+<img src="location of the img with the img name/url" alt="any img error this will be shown">
+
+
+//Favicon tag
+using this tag we can put a logo or img in the title/tab in the browser
+after title tag use this tag
+<link rel="icon" type="image/x-icon" href="path of the icon">
+
+//Table Tag
+<table> => Defines a table 
+<th> => Defines a header cell in a table 
+<tr> => Defines a row in a table 
+<td> => Defines a cell in a table 
+<caption> => Defines a table caption
+<colgroup> => Specifies a group of one or more colums in a table for formatting 
+<col> => Specifies column properties for each colomn within a <colgroup> element
+<thead> => groups the header content in a table 
+<tbody> => groups the body content in a table 
+<tfoot> => groups the footer content in a table
+
+//List Tags 
+
+<ul> => Defines unordered List
+<ol> => Defines ordered lisr 
+<li> => Define list items
+<dl> => Defines a description list
+<dt> => Defines a term in a description list 
+<dd> => Describes the term in a description list (show ass "-Description")
+
+//block level Elements ***
+
+-->A block level elements always start on a new line.
+-->A block level elements always takes up the full width avaliable(stretches out to the left and right as far as it can)
+-->A block level element has a top and a bottom margin, where as an inline element does not have.
+
+Examples :- div,hr,p,dl,tfoot,ul,table,video,dd,dl,li,ol,h1-h6,footer,e.t.c.
+
+//Inline elements
+
+-->An inline elements does not start on a new line 
+-->An inline elements only takes up as much as necessary.
+
+Examples:- <span>,i,a,strong,small,label,img,br,b.e.t.c.
+
+//Class Attribute
+<div class="class_name">this is a div with a class</div>
+<span class="class_name">this is a  with a class</span>
+-->***Multiple elements can share the same class
+--> use .class_name for targeting the html element using css in css external file 
+
+//id Attribute
+<div id="id_name">This is a div with id name</div>
+<span id="id_name">This is a span with id name</span>
+
+-->***The id attribute must be unique with in the html document
+-->use #id_name{} for targeting the html element using css in the css external file
+
+//iframe tag
+
+<iframe src="iframe.html" name="iframe_a" title="iframe"></iframe>
+this tag specifies an inline frame 
+the src attribute defines the url of the page to embed 
+always include a title attribute(for screen readers)
+the height and width attributes specifies the size of the iframe 
+use border:none; to remove the border around the iframe
+
+//File Path 
+
+<img src="img.jpg"> --> the img.jpg file is located in the same folder as the current page
+<img src="images/img.jpg"> --> the img is located in the image folder in the current folder
+<img src="/images/img.jpg"> --> the img is located in the iamges folder at the root of the current web
+<img src="../img.jpg"> --> the img is located in the folder one level up from the current folder 
+
+//Form tag***
+
+<form>
+<input type="text"> -->Display a single line text input field
+<input type="radio"> -->Dispaly a radio button(selecting one of many choices)
+<input type="checkbox"> -->Dispalys a checkbox(for selecting zero or more of many choices)
+<input type="submit"> -->for submitting button
+<input type="buttom"> --> Display a clickable button
+ 
+ ***use placeholder in input tags for giving any instructions to the user as a watermark in the input box
+
+//lable tag 
+<lable> tag defines a lable for many form elements 
+generally used with radio & checkbox type inputs
+
