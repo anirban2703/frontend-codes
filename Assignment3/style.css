@@ -1,0 +1,46 @@
+table{
+    border: 1px solid black;
+    border-spacing: 1px;
+    
+}
+.table1{
+    margin: auto;
+    width: 60%;
+    margin-bottom: 30px;
+}
+td{
+    padding: 1px;
+    border: 1px solid black;
+}
+.left{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    text-align: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    width: 240px;
+  
+}
+.color1{
+    background-color: chartreuse;
+}
+.color2{
+    background-color: darkcyan;
+    color: white;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
