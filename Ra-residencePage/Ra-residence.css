@@ -1,0 +1,33 @@
+ *{
+     box-sizing: border-box;
+ }
+ body{
+    background-color: rgb(105, 152, 171);
+}
+.center{   
+    text-align: center;
+}
+.mid2{
+    text-align: center;
+}
+.mid2t{
+    width: 450px;
+    padding: 10px;
+    
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+}
+.backw{
+    background-color:white;
+    padding: 20px;
+    margin-top: 0;
+}
+.imgc {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
