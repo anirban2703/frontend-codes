@@ -5,13 +5,13 @@
 
 }
 body{
-    background-image: url("/Diwali_Background.jpeg");
+    background-image: url("https://1.bp.blogspot.com/-3cVi1ZoczL0/XRDuVjG3deI/AAAAAAAATw0/VA70LvzOwi0F_iJ6BgisoHecNH5dbLCLACLcBGAs/s1600/Diwali%2BStatus%2Bin%2BEnglish.jpg");
     align-items: center;
     padding-top: 10rem;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     position: relative;
-    background-size: auto 786px;
+    background-size: auto 768px;
     background-repeat: no-repeat;
     font-family: 'Dancing Script', cursive;
     margin: 0;
