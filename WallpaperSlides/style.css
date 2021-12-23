@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+*{
+    font-family: 'Pushster', cursive;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #1F1D36;
+}
+
+
+.container{
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 2rem;
+    
+    
+}
+.heading{
+     color: #fff;
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+}
+.heading p{
+    margin-bottom: 0;
+}
+
+
+.panel{
+    background-size: cover;
+    background-position: center;
+    flex:0.5;
+    margin: 10px;
+    height: 80vh;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: all 700ms ease-in;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+#panel1{background-image: url("https://images.hdqwalls.com/wallpapers/minimal-sunset-landscape-4k-w5.jpg");}
+#panel2{background-image: url("https://wallpaperaccess.com/full/1143632.jpg");}
+#panel3{background-image: url("https://wallpaperaccess.com/full/959294.jpg");}
+#panel4{background-image: url("http://www.mepixels.com/cache/61e52391/4k-ultra-hd-desktop-wallpaper-1140x1140-ya2Qw1kIC.jpeg");}
+#panel5{background-image: url("https://wallpaperaccess.com/full/91469.jpg");}
+
+
+.dwnld{
+    text-decoration: none;
+    color: inherit;
+}
+.panel h3{
+    font-size: 25px;
+    bottom: 20px;
+    margin: 0;
+    left: 20px;
+    position: absolute;
+    opacity: 0;
+}
+.icon{
+    display: flex;
+    float: right;
+    margin-left: 10px;
+    
+
+}
+.active{
+    flex: 5;
+}
+
+
+.panel.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+@media (max-width: 480px) {
+    .container{
+        width: 100vw;
+    }
+    #panel-4,#panel-5{
+        display: none;
+    }
+}
