@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(rgb(47, 150, 163),rgb(48,62,143));
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.location, .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span{
+    margin: 15px;
+    font-size: 30px;
+}
+.degree-section h2{
+    font-size: 40px;
+}
+
+/* .input-location{
+    height: 30px;
+    width: 300px;
+    position: relative; 
+    background-color:rgb(168, 209, 214);
+    border: 0.5px solid gray;
+    border-radius: 15px;
+    padding: 4px 12px 4px 12px;
+}
+
+.input-location:focus{
+    outline: none;
+}
+
+.search-icon{
+    color: rgb(55, 64, 118);
+    position: relative;
+    left: -30px;
+    cursor: pointer;
+} */
